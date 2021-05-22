@@ -20,6 +20,7 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatCardModule } from '@angular/material/card';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MenuComponent } from './components/shared/menu/menu.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
