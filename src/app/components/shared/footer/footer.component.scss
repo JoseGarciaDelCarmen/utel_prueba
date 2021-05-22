@@ -1,0 +1,17 @@
+footer{
+	background-color: #1c1f21;
+	p{
+		color: white;
+		margin-bottom: 0px;
+		padding: 10px 0;
+	}
+}
+
+//Css para tablets y celulares
+@media (max-width: 768px) {
+	footer{
+		p{
+			text-align: center;
+		}
+	}
+}

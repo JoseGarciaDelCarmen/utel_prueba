@@ -1,0 +1,200 @@
+.container-fluid{
+	.containerImageForm{
+		background-color: #025542;
+		margin-top: 5vh;
+		h1{
+			line-height: normal;
+			&:nth-child(1){
+				color: white;
+			}
+			&:nth-child(2){
+				color: #6cc04a;
+			}
+		}
+	}
+	.imgHeader{
+		padding-left: 0;
+		padding-right: 0;
+		background-image: url("../../../assets/home/banners/bannerHome.jpg");
+		height: 50vh;
+		background-size: cover;
+		background-repeat: no-repeat;
+		.containerInfo{
+			max-height: 50vh;
+			padding-top: 15vh;
+		}
+
+		.linea{
+			margin-bottom: 10px;
+		}
+	}
+	img{
+		width: 100%;
+	}
+
+	.whatIsIt{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #F4364C;
+	}
+	h1{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 48px;
+		color: #3C1053;
+	}
+
+	.col-md-6, .col-md-4{
+		.linea{
+			margin-top: 10vh;
+			margin-bottom: 10px;
+		}
+		h3{
+			font-style: normal;
+			color: #3C1053;
+			font-size: 28px;
+		}
+		h4{
+			font-style: normal;
+			font-size: 20px;
+			color: #3C1053;
+			width: 50%;			
+		}
+		p{
+			font-size: 16px;
+		}
+	}
+
+	.odd{
+		h4{
+			margin-left: 5vw;
+
+		}
+	}
+}
+
+.linea{
+	background-color: #F4364C;
+	height: 2px;
+}
+
+
+mat-form-field {
+	width: 100%;
+	padding: 10px 20px;
+}
+
+.buttonObtenerInformacion {
+	width: auto;
+	height: auto;
+	border-radius: 5px;
+	//Aspecto visual del btn
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+	//Texto en el btn
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	//Espacio del btn
+	margin-top: 5vh;
+	padding: 10px 15px;
+  
+	//Btn Deshabilitado
+	&:disabled {
+	  background-color: #E5E5E5;
+	  border: 1px solid #98989A;
+	  color: #98989A;
+	  cursor: not-allowed;
+	}
+  
+	&:hover:enabled {
+	  background-color: #98989A;
+	  border: 1px solid #98989A;
+	  color: white;
+	}
+  }
+
+form{
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	margin: 10vh 5vw;
+	padding: 5vh 0;
+	h1{
+		color: #000000 !important;
+		font-size: 32px !important;
+	}
+}
+
+.infoSent{
+	text-align: center;
+	background-color: white;
+	border-radius: 20px;
+	margin: 10vh 5vw;
+	padding: 5vh 5vw;
+	h1{
+		color: #6cc04a !important;
+		font-size: 32px !important;
+	}
+	p{
+		text-align: center;
+	}
+	.buttonObtenerInformacion{
+		display: inline-block;
+	}
+	a{
+		text-decoration: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Css para tablets y celulares
+@media (max-width: 768px) {
+
+	.container-fluid{
+		.imgHeader{
+			background-size: cover;
+			background-position: right;
+		}
+	}
+
+	.infoCurso{
+		width: 90vw;
+		margin-left: 5vw;
+	}
+
+	
+	h4{
+		margin-left: 0px !important;
+		width: 100% !important;
+	}
+	.containerEstructura{
+		margin: 10vh 0;
+	}
+	.containerImageForm{
+		padding: 10vh 0 0 0;
+	}
+	h1{
+		line-height: normal;
+	}
+}
